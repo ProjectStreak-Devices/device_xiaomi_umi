@@ -73,10 +73,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # A/B
 AB_OTA_UPDATER := false
 
-# ANT+
-PRODUCT_PACKAGES += \
-    AntHalService
-
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
