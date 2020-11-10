@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cafex_umi.mk
+    $(LOCAL_DIR)/streak_umi.mk
 
 COMMON_LUNCH_CHOICES := \
-    cafex_umi-user \
-    cafex_umi-userdebug \
-    cafex_umi-eng
+    streak_umi-user \
+    streak_umi-userdebug \
+    streak_umi-eng

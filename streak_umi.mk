@@ -23,13 +23,13 @@ TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, device/xiaomi/umi/kona.mk)
 
 # Inherit common PE configuration
-$(call inherit-product, vendor/extended/config/common.mk)
+$(call inherit-product, vendor/streak/config/common_full_phone.mk)
 
 $(call inherit-product, vendor/google/pixel/config.mk)
 $(call inherit-product, vendor/google/gms/config.mk)
 
 # Override build properties
-PRODUCT_NAME := cafex_umi
+PRODUCT_NAME := streak_umi
 PRODUCT_DEVICE := umi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 10
