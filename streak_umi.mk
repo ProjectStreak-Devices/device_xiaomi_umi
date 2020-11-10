@@ -25,8 +25,7 @@ $(call inherit-product, device/xiaomi/umi/kona.mk)
 # Inherit common PE configuration
 $(call inherit-product, vendor/streak/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/google/pixel/config.mk)
-$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/gapps/gapps.mk)
 
 # Override build properties
 PRODUCT_NAME := streak_umi
