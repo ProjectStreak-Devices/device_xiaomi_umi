@@ -16,7 +16,7 @@
 
 # Include PixelExperience common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
-
+TARGET_BUILD_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 
 # Inherit device configuration
@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/umi/kona.mk)
 # Inherit common PE configuration
 $(call inherit-product, vendor/streak/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/gapps/gapps.mk)
+$(call inherit-product, vendor/google/gms/config.mk)
 
 # Override build properties
 PRODUCT_NAME := streak_umi
