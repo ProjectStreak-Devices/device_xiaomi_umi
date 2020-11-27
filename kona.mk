@@ -204,12 +204,9 @@ PRODUCT_PACKAGES += \
     libtflite
 
 # QTI common
--include vendor/qcom/common/perf/perf-vendor.mk
--include vendor/qcom/common/telephony/telephony-vendor.mk
--include vendor/qcom/common/telephony-diag/telephony-diag-vendor.mk
--include vendor/qcom/common/audio/audio-vendor.mk
--include vendor/qcom/common/bt/bt-vendor.mk
--include vendor/qcom/common/display/display-vendor.mk
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf \
+    wfd
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -249,10 +246,6 @@ PRODUCT_BOOT_JARS += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0
-
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libnl
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
