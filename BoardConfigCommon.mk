@@ -178,6 +178,7 @@ TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
