@@ -390,6 +390,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
 
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 30
+
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
