@@ -481,3 +481,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     WifiOverlay
+
+$(call inherit-product, vendor/xiaomi/umi/umi-vendor.mk)

@@ -6,8 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter cmi umi,$(TARGET_DEVICE)),)
-
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 # A/B builds require us to create the mount points at compile time.
@@ -113,5 +111,3 @@ ALL_DEFAULT_INSTALLED_MODULES += \
     $(RFS_MDM_MPSS_SYMLINKS) \
     $(RFS_MDM_SLPI_SYMLINKS) \
     $(WIFI_FIRMWARE_SYMLINKS)
-
-endif
