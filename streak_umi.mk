@@ -10,7 +10,7 @@ $(call inherit-product, device/xiaomi/umi/device.mk)
 $(call inherit-product, vendor/streak/config/common_full_phone.mk)
 
 # Include firmware
-$(call inherit-product, vendor/xiaomi/umi/firmware/firmware.mk)
+$(call inherit-product, vendor/xiaomi-firmware/umi/firmware.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := streak_umi
