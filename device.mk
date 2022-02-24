@@ -482,4 +482,6 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     WifiOverlay
 
+PRODUCT_SHIPPING_API_LEVEL := 29
+
 $(call inherit-product, vendor/xiaomi/umi/umi-vendor.mk)
