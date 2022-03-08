@@ -8,6 +8,9 @@ ro.charger.enable_suspend=1
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
