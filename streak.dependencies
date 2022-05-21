@@ -8,8 +8,7 @@
     "target_path": "kernel/xiaomi/sm8250"
   },
   {
-    "repository": "android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
-    "remote": "streak"
-  },
+    "repository": "ProjectStreak/platform_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  }
 ]
